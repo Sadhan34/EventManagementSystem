@@ -1,8 +1,8 @@
 <?php
-$serverName="gdgbangla.com";
-$password="Tgapga842742";
-$username="gdgbangl_root";
-$dbnNme="gdgbangl_event";
+$serverName="";
+$password="";
+$username="";
+$dbnNme="";
 $sql="CREATE DATABASE IF NOT EXISTS $dbnNme";
 $conn=mysqli_connect($serverName,$username,$password);
 if(!mysqli_query($conn,$sql)){
